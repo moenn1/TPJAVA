@@ -33,6 +33,11 @@ public class EntNat {
         }
     }
 
+
+
+
+
+
     public void decremente(EntNat e) {
         try{
             if(this.N<e.N) throw new ErrModif("Valeur 0 atteint");
